@@ -81,11 +81,4 @@ The server listens on `http://localhost:<PORT>` (default 3000).
 
   - Error responses return `is_success: false` and a `message` describing the issue.
 
-## Notes & Security
-- I removed `bfhl-api/node_modules` and `bfhl-api/.env` from the repository tip and added a `.gitignore` to prevent re-committing them. You still need to run `npm install` locally.
-- If the removed `.env` contained any real API keys, rotate them immediately — history was rewritten but rotating keys is recommended.
-
-## Want me to...
-- Add `npm start` script to `package.json`? 
-- Create a small test script to exercise the endpoints?
 
